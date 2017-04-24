@@ -1,0 +1,52 @@
+<script id="modal-data" type="text/template">
+  <div class="modal__content">
+    {{#data}}
+    <div class="row">
+      <div class="col-xs-12 col-sm-6">
+        <div class="indi-prd">
+          <h2 class="m-prod-name">{{name}}</h2>
+          <div class="m-p-r-price tC font40"><span class="hd-note">$</span>{{price}}</div>
+          <ul class="swatch">
+            <li class="swatch-name">{{p_selected_color.name}}</li>
+            <li class="indiviual-swatch selected" data-name="{{p_selected_color.name}}" style="background-color:{{p_selected_color.hexcode}}"></li>
+            {{#p_available_options.colors}}
+              <li class="indiviual-swatch" data-name="{{name}}" style="background-color:{{hexcode}}"></li>
+            {{/p_available_options.colors}}
+          </ul>
+          <div class="siz-qty">
+            <div class="size poRel">
+              <div class="select-holder">
+                <select>
+                  <option value="">SIZE</option>
+                  {{#p_available_options.sizes}}
+                    <option value="{{name}}">{{code}}</option>
+                  {{/p_available_options.sizes}}
+                </select>
+              </div>
+            </div>
+            <div class="qty poRel">
+              <div class="select-holder">
+                <select class='m-qty-dd'>
+                  <option value="">QTY</option>
+                  <option data-p-id= {{product_id}} value="1">1</option>
+                  <option data-p-id= {{product_id}} value="2">2</option>
+                  <option data-p-id= {{product_id}} value="3">3</option>
+                  <option data-p-id= {{product_id}} value="4">4</option>
+                  <option data-p-id= {{product_id}}  value="5">5</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="edit-btn">
+            <input type="button" class="chk-bt btn-dark floatRight edit-button" value="ADD TO BAG"/>
+          </div>
+          <div class="font11 p-text see-p-details u-l">See product details.</div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6">
+          <img alt="" src="{{image}}" class="img-responsive"/>
+      </div>
+    </div>
+    {{/data}}
+  </div>
+</script>

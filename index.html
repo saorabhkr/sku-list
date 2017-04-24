@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="Done by Saorabh Kumar, you can reach me @ saorabh.kr@gmail.com">
+    <meta name="author" content="">
+
+    <!-- Default Meta Tags -->
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <!-- These Info will help full while sharing something on Facebook/pintrest -->
+    <meta property="fb:app_id" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:title" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:url" content="" />
+
+    <!-- Twitter card-->
+    <meta name="twitter:widgets:csp" content=""/>
+    <meta name="twitter:card" content=""/>
+    <meta name="twitter:site" content=""/>
+    <meta name="twitter:app:name:iphone" content=""/>
+    <meta name="twitter:app:name:ipad" content=""/>
+    <meta name="twitter:app:name:googleplay" content=""/>
+    <meta name="twitter:app:id:iphone" content=""/>
+    <meta name="twitter:app:id:ipad" content=""/>
+    <meta name="twitter:app:id:googleplay" content=""/>
+
+    <!-- Place favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/vnd.microsoft.icon" />
+    <link rel="icon" href="assets/images/favicon.ico" type="image/png" />
+    <style>
+      @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+    </style>
+    <link href="dist/all.common.min.css" rel="stylesheet"/>
+
+    <title>Test Assignemnt</title>
+  </head>
+
+  <body>
+    <div id="mask">
+      <div id="progress" class="waiting">
+          <dt></dt>
+          <dd></dd>
+      </div>
+      <div class="right-loader"><i class="fa fa-spinner fa-spin hidden" aria-hidden="true"></i></div>
+    </div>
+    <!-- Start Of Header Block-->
+    <div class="container">
+      <header class="row header">
+        <div class="col-xs-12">
+          <a class="top-logo" href="/" alt="Assignemnt!">
+            <img src="assets/images/logo.png" alt="Assignemnt"/>
+            <span class="d-g sub-heading-on">Fusion Style</span>
+          </a>
+          <span class="g-c sub-heading">— Fashion is nothing without people! </span>
+        </div>
+      </header>
+      <!-- End Of Header Block-->
+      <!--Start Section-->
+      <section class="mainContentWrap row">
+        <div class="col-xs-12">
+          <div class="row p-wrap">
+            <div class="col-xs-12 left-pane">
+              <div class="container-wrap">
+                <div class="row">
+                  <div class="col-xs-12 col-md-3">
+                    <h2 class="add-p-head d-g">Sort By</h2>
+                    <section class="radio-content">
+                      <form>
+                        <ul class="list">
+                          <li class="list-item">
+                            <label class="label-radio">
+                              <input class="medium" type="radio" name="radio-group" data-sort="category"/>
+                                Category
+                            </label>
+                          </li>
+                          <li class="list-item">
+                            <label class="label-radio">
+                              <input class="medium" type="radio" name="radio-group" data-sort="price"/>
+                                Price
+                            </label>
+                          </li>
+                          <li class="list-item">
+                            <label class="label-radio">
+                              <input class="medium" type="radio" name="radio-group" data-sort="votingcount"/>
+                                Like
+                            </label>
+                          </li>
+                        </ul>
+                      </form>
+                    </section>
+                  </div>
+                  <div class="col-xs-12 col-md-3">
+                    <h2 class="add-p-head d-g">Price Filter</h2>
+                    <div class="range-slider">
+                      <div class="floatLeft"><span class="floatLeft min">Min:</span><input class="display-value left min-value" type="number" value="10" min="0" max="1000"/></div>
+                      <div class="floatRight r-el"><span class="floatLeft max">Max:</span><input class="display-value right max-value"  type="number" value="1000" min="0" max="1000"/></div>
+                      <input value="10" min="0" max="1000" step="10" type="range"/>
+                      <input value="1000" min="0" max="1000" step="10" type="range"/>
+                    </div>
+                    <hr/>
+                    <div class="clear"></div>
+                    <div class="change-layout">
+                        <h2 class="add-p-head d-g">Change Layout</h2>
+                        <div class="btn-group">
+                            <a href="#" id="list" class="btn btn-default btn-sm"><span class="fa fa-list"></span>List</a>
+                            <a href="#" id="grid" class="btn btn-default btn-sm"><span class="fa fa-th"></span>Grid</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-md-6">
+                    <div class="search-wrap">
+                      <div class="holder">
+                        <div class="row">
+                          <div class="col-xs-12">
+                            <form>
+                              <div class="input-holder"><i class="fa fa-search"></i>
+                                <input type="text" placeholder="Search for a product by category or name..." class="tag-search typeahead"/>
+                              </div>
+                            </form>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-12 right-pane">
+              <h2 id="many-result">We are updating your page. Please wait...<i class="fa fa-spinner fa-spin" aria-hidden="true"></i></h2>
+              <div class="pTemplate"></div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <!--End Section -->
+      <footer>
+        <p class="align-center hover-c footnot">Done by Saorabh Kumar, you can reach me @ saorabh.kr@gmail.com</p>
+      </footer>
+      <div class="spmodal modal--scale-up" id="spmodal">
+        <div class="modal__window">
+          <div class="close-btn-wrapper modal__close-btn floatRight" data-close-modal >
+              <div class="close-btn"></div>
+          </div>
+          <div class="sp-modal-content"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Lib JavaScript -->
+    <!-- ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="dist/all.common.min.js"></script>
+  </body>
+</html>

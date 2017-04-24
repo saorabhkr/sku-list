@@ -1,0 +1,54 @@
+<script id="websites-data" type="text/template">
+  <div class="row">
+      <div id="website-i-data" class='col-xs-12'>
+        <ul id="products" class="p-list js-p-list row list-group">
+              {{#data}}
+                <li class="p-list-item item col-xs-6 col-sm-4 col-md-3">
+                  <div class="list-wrap row">
+                    <div class="col-xs-12">
+                      <div class="a-f-av poRel">
+                        <a class="prod-img" href="javascript:void(0);" alt="{{name}}" data-trigger-modal="spmodal" data-product-id="{{product_id}}">
+                          <img alt="{{name}}" class="p-image img-responsive" src="{{image}}"/>
+                        </a>
+                      <div class="x-ribbon-wrap poAbs" title="">{{quantity}} Left</div>
+                      <div class='e-d-wrap'>
+                        <div class="votes" data-voting-id="{{product_id}}">
+                          <div class="increment up fa fa-heart-o" aria-hidden="true"></div>
+                          <div class="number-of-rating count">{{ votingcount }}</div>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                    <div class="lists-d col-xs-12">
+                      <span class="a-f-name"><a href="javascript:void(0);" alt="{{name}}" target="_blank">{{name}}</a></span>
+                      <div class="sites-extra-details">
+                        <div class="list-tag floatLeft">
+                          <i class="fa fa-inr" aria-hidden="true"></i>
+                          <span class="a-f">{{price}}</span> INR
+                        </div>
+                        <div class="rating floatRight"> 
+                          <span class="star-num">{{rating}}</span>
+                          <span class="stars" data-numStars="{{rating}}" data-rating="{{rating}}" data-num-stars="5" ></span>
+                        </div>
+                      </div>
+                      <div class="sites-extra-details">
+                        <div class="list-tag floatLeft">
+                          <i class="fa fa-tag" aria-hidden="true"></i>
+                          <span class="a-f">Apparel</span>
+                        </div>
+                      </div>
+                      <div class="availabe-colors">
+                        <a href="javascript:void(0);" alt="{{name}}" target="_blank" class="a-f" style="background-color:{{p_selected_color.hexcode}}">&nbsp</a>
+                      </div>
+                      <div class='l-description'>
+                          <h3>#Description</h3>
+                          <span class='l-desc'>{{description}}</span>
+                      </div>
+                    </div>
+                  </div>
+              </li>
+            {{/data}}
+        </ul>
+      <div>    
+  </div>
+</script>

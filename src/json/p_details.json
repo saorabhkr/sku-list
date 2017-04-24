@@ -1,0 +1,353 @@
+{
+    "products": [
+        {
+            "product_id": "1",
+            "name": "Tommy Hilfiger backpack",
+            "price": "1350",
+            "purchased_by": "10",
+            "rating": "3.8",
+            "tags": [
+                "backpack",
+                "bag"
+            ],
+            "p_selected_color": {
+                "name": "blue",
+                "hexcode": "#1169BD"
+            },
+            "p_selected_size": {
+                "name": "small",
+                "code": "s"
+            },
+            "p_available_options": {
+                "colors": [
+                    {
+                        "name": "green",
+                        "hexcode": "#A3D2A1"
+                    },
+                    {
+                        "name": "yellow",
+                        "hexcode": "#F9F8E6"
+                    },
+                    {
+                        "name": "red",
+                        "hexcode": "#ED99A8"
+                    }
+                ],
+                "sizes": [
+                    {
+                        "name": "small",
+                        "code": "s"
+                    },
+                    {
+                        "name": "medium",
+                        "code": "m"
+                    },
+                    {
+                        "name": "large",
+                        "code": "l"
+                    },
+                    {
+                        "name": "extra large",
+                        "code": "xl"
+                    }
+                ]
+            },
+            "provider": "Amazon",
+            "link": "http://www.amazon.in/s/ref=sr_nr_p_n_pct-off-with-tax_3?bbn=2454169031&fst=as%3Aoff&ie=UTF8&qid=1449163374&rh=n%3A2454169031%2Cp_4%3ATommy%20Hilfiger%2Cp_n_pct-off-with-tax%3A2665401031&rnid=2665398031&tag=desidime01-21&ascsubtag=16CL1Xdeals",
+            "image": "http://assets.myntassets.com/dpr_2/h_240,q_60,w_180/v1/assets/images/1641310/2017/4/21/11492776211314-Jack--Jones-Men-Navy-Blue-Printed-Casual-Shirt-7101492776211050-1_mini.jpg",
+            "quantity":"24",
+            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+            
+        },
+        {
+            "product_id": "2",
+            "name": "Redragon 3000DPI Mouse",
+            "price": "1199",
+            "purchased_by": "330",
+            "rating": "4",
+            "tags": [
+                "mouse",
+                "electronics"
+            ],
+            "p_selected_color": {
+                "name": "pink",
+                "hexcode": "#F1DDEF"
+            },
+            "p_selected_size": {
+                "name": "small",
+                "code": "s"
+            },
+            "p_available_options": {
+                "colors": [
+                    {
+                        "name": "green",
+                        "hexcode": "#A3D2A1"
+                    },
+                    {
+                        "name": "yellow",
+                        "hexcode": "#F9F8E6"
+                    },
+                    {
+                        "name": "pink",
+                        "hexcode": "#F1DDEF"
+                    }
+                ],
+                "sizes": [
+                    {
+                        "name": "small",
+                        "code": "s"
+                    },
+                    {
+                        "name": "medium",
+                        "code": "m"
+                    },
+                    {
+                        "name": "large",
+                        "code": "l"
+                    },
+                    {
+                        "name": "extra large",
+                        "code": "xl"
+                    }
+                ]
+            },
+            "provider": "Amazon",
+            "link": "http://www.amazon.in/gp/product/B011HMDZ0Q",
+            "image": "http://assets.myntassets.com/dpr_2/h_240,q_60,w_180/v1/assets/images/1675949/2017/4/19/11492601934641-Jack--Jones-Men-Red-Printed-Round-Neck-T-shirt-9531492601934406-1_mini.jpg",
+            "quantity":"12",
+            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+        },
+        {
+            "product_id": "3",
+            "name": "Tresemme Smooth & Shine",
+            "price": "350",
+            "purchased_by": "250",
+            "rating": "4.5",
+            "tags": [
+                "shampoo",
+                "personal care"
+            ],
+            "p_selected_color": {
+                "name": "blue",
+                "hexcode": "#1169BD"
+            },
+            "p_selected_size": {
+                "name": "small",
+                "code": "s"
+            },
+            "p_available_options": {
+                "colors": [
+                    {
+                        "name": "green",
+                        "hexcode": "#A3D2A1"
+                    },
+                    {
+                        "name": "blue",
+                        "hexcode": "#1169BD"
+                    },
+                    {
+                        "name": "red",
+                        "hexcode": "#ED99A8"
+                    }
+                ],
+                "sizes": [
+                    {
+                        "name": "small",
+                        "code": "s"
+                    },
+                    {
+                        "name": "medium",
+                        "code": "m"
+                    },
+                    {
+                        "name": "large",
+                        "code": "l"
+                    },
+                    {
+                        "name": "extra large",
+                        "code": "xl"
+                    }
+                ]
+            },
+            "provider": "Purplle",
+            "link": "http://purplle.com/product/tresemme-smooth-and-shine-shampoo-580-m",
+            "image": "http://assets.myntassets.com/dpr_2/h_240,q_60,w_180/v1/assets/images/1801203/2017/4/5/11491387251422-Jack--Jones-Men-Beige-Slim-Fit-Solid-Casual-Shirt-9721491387238739-1_mini.jpg",
+            "quantity":"1",
+            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+        },
+        {
+            "product_id": "4",
+            "name": "Wings of Fire",
+            "price": "325",
+            "purchased_by": "2532",
+            "rating": "5",
+            "tags": [
+                "book",
+                "kalam"
+            ],
+            "p_selected_color": {
+                "name": "red",
+                "hexcode": "#dd0017"
+            },
+            "p_selected_size": {
+                "name": "small",
+                "code": "s"
+            },
+            "p_available_options": {
+                "colors": [
+                    {
+                        "name": "green",
+                        "hexcode": "#A3D2A1"
+                    },
+                    {
+                        "name": "yellow",
+                        "hexcode": "#F9F8E6"
+                    },
+                    {
+                        "name": "red",
+                        "hexcode": "#ED99A8"
+                    }
+                ],
+                "sizes": [
+                    {
+                        "name": "small",
+                        "code": "s"
+                    },
+                    {
+                        "name": "medium",
+                        "code": "m"
+                    },
+                    {
+                        "name": "large",
+                        "code": "l"
+                    },
+                    {
+                        "name": "extra large",
+                        "code": "xl"
+                    }
+                ]
+            },
+            "provider": "Flipkart",
+            "link": "http://www.flipkart.com/wings-fire-autobiography-english-1st/p/itmdyu8fezqmmvhe",
+            "image": "http://assets.myntassets.com/dpr_2/h_240,q_60,w_180/v1/assets/images/1801102/2017/4/6/11491462027110-Jack--Jones-Men-Tshirts-8701491462026879-1_mini.jpg",
+            "quantity":"4",
+            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+        },
+        {
+            "product_id": "5",
+            "name": "Freecharge Cashback (BILL150)",
+            "price": "1650",
+            "purchased_by": "10103",
+            "rating": "3",
+            "tags": [
+                "online recharge",
+                "cashback"
+            ],
+            "p_selected_color": {
+                "name": "red",
+                "hexcode": "#dd0017"
+            },
+            "p_selected_size": {
+                "name": "small",
+                "code": "s"
+            },
+            "p_available_options": {
+                "colors": [
+                    {
+                        "name": "green",
+                        "hexcode": "#A3D2A1"
+                    },
+                    {
+                        "name": "yellow",
+                        "hexcode": "#F9F8E6"
+                    },
+                    {
+                        "name": "red",
+                        "hexcode": "#ED99A8"
+                    }
+                ],
+                "sizes": [
+                    {
+                        "name": "small",
+                        "code": "s"
+                    },
+                    {
+                        "name": "medium",
+                        "code": "m"
+                    },
+                    {
+                        "name": "large",
+                        "code": "l"
+                    },
+                    {
+                        "name": "extra large",
+                        "code": "xl"
+                    }
+                ]
+            },
+            "provider": "Freecharge",
+            "link": "https://www.freecharge.in",
+            "image": "http://assets.myntassets.com/dpr_2/h_240,q_60,w_180/v1/assets/images/1801213/2017/4/5/11491387281463-Jack--Jones-Men-Blue-Slim-Fit-Solid-Casual-Shirt-5651491387281251-1_mini.jpg",
+            "quantity":"2",
+            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+        },
+        {
+            "product_id": "6",
+            "name": "Myntra (ACTOFFER)",
+            "price": "6000",
+            "purchased_by": "50",
+            "rating": "4",
+            "tags": [
+                "leisure",
+                "activities"
+            ],
+            "p_selected_color": {
+                "name": "blue",
+                "hexcode": "#1169BD"
+            },
+            "p_selected_size": {
+                "name": "small",
+                "code": "s"
+            },
+            "p_available_options": {
+                "colors": [
+                    {
+                        "name": "green",
+                        "hexcode": "#A3D2A1"
+                    },
+                    {
+                        "name": "yellow",
+                        "hexcode": "#F9F8E6"
+                    },
+                    {
+                        "name": "red",
+                        "hexcode": "#ED99A8"
+                    }
+                ],
+                "sizes": [
+                    {
+                        "name": "small",
+                        "code": "s"
+                    },
+                    {
+                        "name": "medium",
+                        "code": "m"
+                    },
+                    {
+                        "name": "large",
+                        "code": "l"
+                    },
+                    {
+                        "name": "extra large",
+                        "code": "xl"
+                    }
+                ]
+            },
+            "provider": "Myntra",
+            "link": "http://www.myntra.com/",
+            "image": "http://assets.myntassets.com/dpr_2/h_240,q_60,w_180/v1/assets/images/1824274/2017/4/6/11491473553607-Jack--Jones-Men-Tshirts-1351491473553360-1_mini.jpg",
+            "quantity":"10",
+            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+        }
+    ]
+}
