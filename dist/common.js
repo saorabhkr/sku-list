@@ -1029,11 +1029,14 @@ var common = (function() {
       var products    =   data.products.slice(0)
           ,res = []
       ;
+
+      debugger
       $.each(products, function(index, value){
-        if( value.price >= min ||  value.price <= max ){
+        if( value.price >= min &&  value.price <= max ){
           res.push(value);
         }
       });
+
       common.updateProjectPg( res );
     }
 

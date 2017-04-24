@@ -3,7 +3,7 @@
         {
             "product_id": "1",
             "name": "Tommy Hilfiger backpack",
-            "price": "1350",
+            "price": "980",
             "purchased_by": "10",
             "rating": "3.8",
             "tags": [
@@ -57,12 +57,12 @@
             "image": "http://assets.myntassets.com/dpr_2/h_240,q_60,w_180/v1/assets/images/1641310/2017/4/21/11492776211314-Jack--Jones-Men-Navy-Blue-Printed-Casual-Shirt-7101492776211050-1_mini.jpg",
             "quantity":"24",
             "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
-            
+
         },
         {
             "product_id": "2",
             "name": "Redragon 3000DPI Mouse",
-            "price": "1199",
+            "price": "995",
             "purchased_by": "330",
             "rating": "4",
             "tags": [
@@ -236,7 +236,7 @@
         {
             "product_id": "5",
             "name": "Freecharge Cashback (BILL150)",
-            "price": "1650",
+            "price": "234",
             "purchased_by": "10103",
             "rating": "3",
             "tags": [
@@ -294,7 +294,7 @@
         {
             "product_id": "6",
             "name": "Myntra (ACTOFFER)",
-            "price": "6000",
+            "price": "600",
             "purchased_by": "50",
             "rating": "4",
             "tags": [
